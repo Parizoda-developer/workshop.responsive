@@ -1,0 +1,53 @@
+.team_item_box {
+    display: flex;
+    justify-content: center;
+    gap: 50px; 
+    padding: 50px;    
+  }
+
+  .person_3{
+    display: none;
+    
+  }
+@media screen and (min-width: $small) {
+   .team_main_beginning {
+     margin-top: 50px;
+     margin: 0 auto;
+     text-align: center;
+   }
+
+   .team_item_box {
+    display: flex;
+    justify-content: center;
+    gap: 50px; 
+    padding: 50px;    
+  }
+
+  .person_3{
+    display: none;
+    
+  }
+
+  .another_class{
+    width: 500px;
+  }
+
+}
+
+ @media screen and (min-width: $large) {
+   
+      .team_item_box {
+        display: flex;
+        justify-content: center;
+        gap: 50px;     
+      }
+  
+      .team_main_beginning{
+        margin-top: 20px;
+       
+      }
+
+      .person_3{
+        display: flex;
+      }
+  }
